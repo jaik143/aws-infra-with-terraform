@@ -1,4 +1,4 @@
-# 🚀 Terraform-AWS-NTI Project
+# 🚀 Terraform-Aws Infra Project
 
 ---
 
@@ -61,17 +61,23 @@ This project automates the deployment of a **secure** and **scalable** cloud inf
 
 ## Screen Shots
 - **Main VPC**
-![Image](https://github.com/user-attachments/assets/b77c793c-8a68-4744-b5cd-39641ae7d355)
-- **External Load Balancer**
-![Image](https://github.com/user-attachments/assets/87beb548-a545-4a63-b7b1-217f5cfd6525)
-- **Internal Load Balancer**
-![Image](https://github.com/user-attachments/assets/99d0b47c-63a4-4d2d-9aa1-2fd20d72261b)
+![Alt text](images/vpc.png)
+
+- **Load Balancer (Internal and External)**
+![Alt text](images/loadbalancers.png)
+
 - **S3 Bucket (Terraform State Storage)**
-![Image](https://github.com/user-attachments/assets/1f2b7e05-62fb-4ebe-b8d2-76452a3ecc63)
+![Alt text](images/s3.png)
+
 - **EC2 Instances**
-![Image](https://github.com/user-attachments/assets/28535fc0-ca38-4ef4-a42d-36b48d3ac496)
+![Alt text](images/ec2.png)
+
+- **DyanamoDb (Terraform State lock)**
+![Alt text](images/dyanamodb-lock.png)
+
+
 - **Testing with External Load Balancer DNS**
-![Image](https://github.com/user-attachments/assets/bd6530f5-7d80-4027-9048-24e70565a3e2)  ![Image](https://github.com/user-attachments/assets/4d6eefae-511e-4cb8-bbca-5f754bc8831e)
+![Alt text](images/elb-test.png)
 
 
 ---
