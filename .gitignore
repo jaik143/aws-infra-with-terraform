@@ -1,0 +1,44 @@
+# ---- Terraform ----
+# Local state and plan files - may contain secrets in plain text
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+
+# Provider plugins and local working directory
+**/.terraform/*
+.terraform.tfstate.lock.info
+
+# Variable files - these routinely hold credentials, CIDRs and account IDs
+*.tfvars
+*.tfvars.json
+!example.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# ---- Credentials & keys ----
+*.pem
+*.ppk
+*.key
+.env
+.env.*
+credentials
+aws_credentials
+*.p12
+id_rsa*
+
+# ---- OS / editor noise ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
